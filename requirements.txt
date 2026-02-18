@@ -1,0 +1,29 @@
+# Core Python ML stack
+numpy==1.26.4
+pandas==2.1.4
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.2
+
+# Machine Learning
+scikit-learn==1.4.0
+
+# Jupyter environment
+jupyter==1.0.0
+jupyterlab==4.1.1
+ipykernel==6.29.2
+
+# Web framework
+flask==3.1.0
+
+# Optional but very common for loan prediction
+xgboost==2.0.3
+lightgbm==4.3.0
+
+joblib
+gunicorn
+
+# register the kernel for Jupyter
+# python -m ipykernel install --user --name loan_prediction --display-name "Python (loan_prediction)"
+
